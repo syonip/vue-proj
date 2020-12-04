@@ -6,7 +6,10 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import log from "electron-log";
+log.info(`hello`);
+
 
 export default {
   name: 'App',
